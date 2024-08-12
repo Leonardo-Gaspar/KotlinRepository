@@ -1,7 +1,8 @@
 fun SomaDosQuadrados(a: Int, b: Int): Int {
     val quadradoA = a * a
     val quadradoB = b * b
-    return quadradoA + quadradoB
+    val soma = quadradoA + quadradoB
+    return soma
 }
 
 fun main() {
