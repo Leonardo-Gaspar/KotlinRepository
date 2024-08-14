@@ -7,5 +7,5 @@ fun SomaDosQuadrados(a: Int, b: Int): Int {
 
 fun main() {
     val resultado = SomaDosQuadrados(2, 3)
-    println("A soma dos quadrados é: $resultado")
+    println("A soma dos quadrados eh: $resultado")
 }
