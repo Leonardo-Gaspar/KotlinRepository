@@ -18,6 +18,9 @@ fun main() {
     if (numero == null) {
         println("Por favor, insira um número inteiro válido.")
         return
+    }else if(numero <= 0){
+        println("Por favor, insira um número maior que 0")
+        return
     }
 
     var soma = 0 // Inicializa a variável soma
